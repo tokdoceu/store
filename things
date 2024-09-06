@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Doces</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #ff6f61, #ffcccb);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: #ffcccb;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #ff6f61;
+            color: white;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja de Doces</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <div class="container" id="home">
+        <section class="card">
+            <h2>Bem-vindo à nossa loja!</h2>
+            <p>Descubra uma variedade deliciosa de doces que vão adoçar seu dia. Navegue pelo nosso cardápio virtual e conheça mais sobre o nosso trabalho.</p>
+        </section>
+    </div>
+    <div class="container" id="sobre">
+        <section class="card">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou [Seu Nome], apaixonado por confeitaria e dedicado a criar doces irresistíveis. Com anos de experiência, busco sempre inovar e trazer o melhor para meus clientes.</p>
+        </section>
+    </div>
+    <div class="container" id="portfolio">
+        <section class="card">
+            <h2>Portfólio</h2>
+            <div>
+                <h3>Doces Personalizados</h3>
+                <img src="doces-personalizados.jpg" alt="Doces Personalizados">
+                <p>Veja alguns dos nossos projetos de doces personalizados para festas e eventos especiais.</p>
+            </div>
+            <div>
+                <h3>Bolinho de Aniversário</h3>
+                <img src="bolinho-aniversario.jpg" alt="Bolinho de Aniversário">
+                <p>Confira nossos bolinhos de aniversário decorados e deliciosos.</p>
+            </div>
+        </section>
+    </div>
+    <div class="container" id="cardapio">
+        <section class="card">
+            <h2>Cardápio</h2>
+            <ul>
+                <li>Bolo de Chocolate - R$30</li>
+                <li>Cupcake de Baunilha - R$12</li>
+                <li>Trufa de Morango - R$15</li>
+                <li>Cookie de Caramelo - R$10</li>
+            </ul>
+        </section>
+    </div>
+    <div class="container" id="contato">
+        <section class="card">
+            <h2>Contato</h2>
+            <p>Email: contato@lojadedoces.com.br</p>
+            <p>Telefone: (11) 98765-4321</p>
+            <p>Redes Sociais: 
+                <a href="https://www.instagram.com/lojadedoces" target="_blank">Instagram</a> | 
+                <a href="https://www.facebook.com/lojadedoces" target="_blank">Facebook</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Loja de Doces. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
